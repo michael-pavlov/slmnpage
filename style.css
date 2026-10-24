@@ -1266,7 +1266,7 @@ h2 {
 
 .trial-label>p {
   margin:0;
-  font-size:13px;
+  font-size:16px;
   line-height:1.4;
   color:#9ca98c;
 }
@@ -1289,14 +1289,14 @@ h2 {
   align-items:center;
   justify-content:space-between;
   gap:8px;
-  font-size:16px;
+  font-size:22px;
   margin-bottom:32px;
 }
 
 .plan-header svg {
   color:#84996a;
-  width:19px;
-  height:19px;
+  width:24px;
+  height:24px;
 }
 
 .interval {
@@ -1306,7 +1306,7 @@ h2 {
 }
 
 .interval>span {
-  font-size:24px;
+  font-size:30px;
   font-weight:400;
   letter-spacing:-.5px;
   margin-left:8px;
@@ -1315,22 +1315,22 @@ h2 {
 
 .interval-label {
   margin:6px 0 26px;
-  font-size:13px;
+  font-size:16px;
   color:#879776;
 }
 
 .plan-description {
-  font-size:13px;
+  font-size:17px;
   line-height:1.6;
   color:#a6b298;
   margin:0 0 29px;
-  min-height:43px;
+  min-height:56px;
 }
 
 .price {
   border-top:1px solid #394330;
   padding-top:24px;
-  font-size:32px;
+  font-size:40px;
   letter-spacing:-1px;
   display:flex;
   align-items:baseline;
@@ -1339,28 +1339,28 @@ h2 {
 }
 
 .price>span {
-  font-size:13px;
+  font-size:18px;
   color:#879776;
   letter-spacing:0;
 }
 
 .price-card .button {
   width:100%;
-  font-size:13px;
+  font-size:16px;
   padding:16px;
-  min-height:48px;
+  min-height:56px;
   justify-content:space-between;
   margin-top:24px;
 }
 
 .price-card .button svg {
-  width:17px;
-  height:17px;
+  width:20px;
+  height:20px;
 }
 
 .plan-footnote {
   text-align:center;
-  font-size:13px;
+  font-size:15px;
   color:#829371;
   margin:13px 0 0;
 }
@@ -1386,7 +1386,7 @@ h2 {
 
 .pricing-note {
   margin:22px 0 0;
-  font-size:13px;
+  font-size:16px;
   line-height:1.6;
   color:#77846b;
   text-align:center;
@@ -1853,7 +1853,7 @@ h2 {
   }
 
   .price {
-    font-size:29px;
+    font-size:34px;
   }
 
   .plan-badge {
@@ -2146,7 +2146,7 @@ h2 {
   }
 
   .plan-header {
-    font-size:14px;
+    font-size:18px;
   }
 
   .interval {
@@ -2154,20 +2154,21 @@ h2 {
   }
 
   .plan-description {
-    font-size:13px;
+    font-size:16px;
+    min-height:0;
   }
 
   .price {
-    font-size:25px;
+    font-size:30px;
     gap:4px;
   }
 
   .price>span {
-    font-size:13px;
+    font-size:16px;
   }
 
   .price-card .button {
-    font-size:13px;
+    font-size:15px;
     padding:14px 10px;
   }
 
@@ -2185,7 +2186,7 @@ h2 {
   }
 
   .trial-label>p {
-    font-size:13px;
+    font-size:16px;
   }
 
   .faq-grid {
@@ -2638,7 +2639,7 @@ h2 {
   }
 
   .trial-label>p {
-    font-size:13px;
+    font-size:16px;
   }
 
   .pricing-grid {
@@ -2651,7 +2652,7 @@ h2 {
   }
 
   .plan-header {
-    font-size:18px;
+    font-size:22px;
     margin-bottom:28px;
   }
 
@@ -2669,34 +2670,34 @@ h2 {
   }
 
   .interval-label {
-    font-size:13px;
+    font-size:16px;
     margin-bottom:22px;
   }
 
   .plan-description {
-    font-size:14px;
+    font-size:17px;
     margin-bottom:23px;
   }
 
   .price {
-    font-size:34px;
+    font-size:40px;
     gap:8px;
     padding-top:23px;
   }
 
   .price>span {
-    font-size:13px;
+    font-size:18px;
   }
 
   .price-card .button {
-    font-size:14px;
-    min-height:51px;
+    font-size:16px;
+    min-height:56px;
     margin-top:24px;
     padding:16px 20px;
   }
 
   .plan-footnote {
-    font-size:13px;
+    font-size:15px;
   }
 
   .plan-badge {
@@ -2707,7 +2708,7 @@ h2 {
 
   .pricing-note {
     text-align:left;
-    font-size:13px;
+    font-size:16px;
     line-height:1.6;
   }
 
