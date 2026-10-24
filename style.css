@@ -1542,6 +1542,9 @@ h2 {
 
 .final-radar>i {
   position:absolute;
+  left:50%;
+  top:50%;
+  translate:-50% -50%;
   border:1px solid #23311524;
   width:75%;
   height:75%;
@@ -1574,15 +1577,15 @@ h2 {
   position:absolute;
   left:50%;
   top:50%;
-  width:45%;
+  width:46%;
   height:1px;
   background:#23311524;
-  transform-origin:0 0;
-  transform:rotate(-45deg);
+  transform-origin:left center;
+  transform:translateY(-50%) rotate(-45deg);
 }
 
 .final-radar:after {
-  transform:rotate(130deg);
+  transform:translateY(-50%) rotate(135deg);
 }
 
 .footer {
