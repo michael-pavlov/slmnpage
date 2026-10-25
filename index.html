@@ -45,7 +45,7 @@
         <a class="button button-primary hero-button" href="https://t.me/SaleMonitorBot?start=lnd" target="_blank" rel="noopener noreferrer"><svg><use href="#telegram"/></svg>Попробовать бесплатно<svg><use href="#arrow"/></svg></a>
         <p class="cta-note"><span>3 дня бесплатно</span><span class="note-separator">·</span> Всё работает в Telegram</p>
       </div>
-      <div class="hero-demo" aria-label="Интерактивный пример работы SaleMonitor">
+      <div class="hero-demo" aria-label="Пример уведомлений SaleMonitor">
         <div class="radar" aria-hidden="true"><div></div><div></div><div></div><span class="radar-orbit"></span><i></i><b></b></div>
         <div class="demo-label"><span class="status-dot"></span> ПОИСК ИДЁТ. ВЫ СВОБОДНЫ.</div>
         <div class="search-widget">
@@ -55,12 +55,23 @@
         </div>
         <div class="flow-line" aria-hidden="true"><span></span><svg><use href="#arrow"/></svg></div>
         <div class="notification-widget">
-          <div class="notification-header"><span class="bot-avatar"><svg><use href="#logo"/></svg></span><div><strong>SaleMonitor</strong><span>Новое объявление</span></div><svg class="telegram-icon"><use href="#telegram"/></svg></div>
-          <div class="listing-image"><span class="listing-badge"><span class="status-dot"></span>Только что найдено</span><img id="demo-image" src="assets/camera.svg" alt="Иллюстрация плёночного фотоаппарата" width="500" height="300"><span class="image-caption" id="demo-image-caption">ХОРОШО СОХРАНИЛСЯ. ЖДЁТ ВАС.</span></div>
-          <div class="listing-content" aria-live="polite"><p id="demo-title">Зенит-Е с объективом Гелиос-44</p><div class="listing-info"><strong id="demo-price">4 500 ₽</strong><span id="demo-location">Москва · Авито</span></div><a class="listing-link" href="https://t.me/SaleMonitorBot?start=lnd" target="_blank" rel="noopener noreferrer">Найти своё в Telegram<svg><use href="#arrow-up"/></svg></a></div>
+          <div class="notification-header"><span class="bot-avatar"><svg><use href="#logo"/></svg></span><div><strong>SaleMonitor</strong><span>Новые объявления</span></div><svg class="telegram-icon"><use href="#telegram"/></svg></div>
+          <div class="listing-feed">
+            <article class="feed-msg" data-query="Плёночный фотоаппарат">
+              <div class="feed-msg__thumb"><img src="assets/camera.svg" alt="" width="72" height="72"></div>
+              <div class="feed-msg__body"><p>Зенит-Е с объективом Гелиос-44</p><div class="feed-msg__row"><strong>4 500 ₽</strong><span>только что</span></div><span class="feed-msg__meta">Москва · Авито</span></div>
+            </article>
+            <article class="feed-msg" data-query="iPhone 13 · до 30 000 ₽">
+              <div class="feed-msg__thumb"><img src="assets/phone.svg" alt="" width="72" height="72"></div>
+              <div class="feed-msg__body"><p>iPhone 13, 128 ГБ, отличное состояние</p><div class="feed-msg__row"><strong>27 000 ₽</strong><span>только что</span></div><span class="feed-msg__meta">Москва · Авито</span></div>
+            </article>
+            <article class="feed-msg" data-query="Volvo V60 · дизель · универсал">
+              <div class="feed-msg__thumb"><img src="assets/car.svg" alt="" width="72" height="72"></div>
+              <div class="feed-msg__body"><p>Volvo V60, 2.0 D, 2018</p><div class="feed-msg__row"><strong>2 150 000 ₽</strong><span>только что</span></div><span class="feed-msg__meta">Москва · Авито</span></div>
+            </article>
+          </div>
         </div>
         <div class="speed-stamp"><svg><use href="#bolt"/></svg><strong>10 <span>сек</span></strong><span>минимальный<br>интервал проверки</span></div>
-        <div class="demo-switcher" role="group" aria-label="Выберите пример поиска"><button type="button" class="selected" data-demo="camera" aria-pressed="true">Редкие вещи</button><button type="button" data-demo="phone" aria-pressed="false">Техника</button><button type="button" data-demo="car" aria-pressed="false">Автомобили</button></div>
         <p class="demo-disclaimer">Иллюстрация работы сервиса. Объявления — примеры.</p>
       </div>
     </section>
